@@ -37,3 +37,29 @@ color: orange;
     background-repeat: no-repeat;
     background-position:right;
 }
+.expwerience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+}
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#dev-experience{
+        border-left: 7px solid;
+        border-image: linear-gradient(rgb(148, 0, 44), rgb(255, 0, 149));
+        border-image-slice: 1;
+}
+footer p{
+    text-align-last: center;
+}
